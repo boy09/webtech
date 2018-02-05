@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+body{
+  /* background-image:  url("https://cdn.pixabay.com/photo/2017/09/04/18/38/vintage-2714966_1280.jpg");*/
+  background-image:  url("https://2.bp.blogspot.com/_IwbCppTeH0E/TJu7FSnbsqI/AAAAAAAAAlo/ZeggB4VTK2Y/s1600/dark-abstract-wide-wallpaper-1440x900-009.jpg")
+}
+
+
+h1{
+  font-size: 25px;
+  color: black ;
+  font-family: 'Pacifico', cursive;
+}
+p{
+  font-size: 30px;
+  color: brown;
+  font-family: 'Pacifico', cursive;
+}
+
+.Home{
+
+   width: 1200px;
+  text-align: center;
+  margin: 200px;
+  margin: 150px;
+  border: 10px solid yellow;
+  background-color: LightSteelBlue   ;
+  padding: 30px;
+}
+.Quick{
+   /*border: 3px solid black;*/
+     text-align: center;
+   width: 1200px;
+   margin: auto;
+
+
+}
+.ShowScore{
+  border: 10px solid yellow;
+     text-align: center;
+     margin: 150px;
+        width: 1200px;
+        padding: 30px;
+        background-color: LightSteelBlue   ;
+}
+
+.butQuick{
+ /* border: 3px solid black; */
+}
+.Quick{
+
+}
+img{
+  height: 470px;
+  width: 470px;
+  margin:20px;
+}
+.clanbutton{
+  text-align: center;
+
+  width: center;
+
+}
+button{
+  font-size: 30px;
+  color: gray;
+  background-color: white;
+
+
+}
+h{
+  font-size: 40px;
+  color: red;
+}
+button:hover{
+  color: green;
+}

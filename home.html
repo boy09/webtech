@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quick game</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="quick.json"></script>
+      <script src="main.js"></script>
+  </head>
+  <body>
+
+    <div class="Home">
+      <h1 id="qn">Quick Name<h1>
+          <button id="butStart" onclick="start()">Start </button>
+
+          <div hidden class="chooseChoice">
+            <h1 style="font-size:30px;">Choose Choice</h1>
+            <button hidden id="but10" onclick="clickbut()" value="10">10 ข้อ </button>
+            <button hidden id="but20" onclick="clickbut()" value="20"> 20 ข้อ </button>
+          </div>
+
+
+    </div>
+    <div hidden class="Quick">
+        <h  id="time" ></h>
+      <br>
+      <img id="idImage" src="./image/1.jpg" alt="imageeie">
+      <h1 id="quickid" >Question 1 </h1>
+      <div class="clanbutton" id="buttongrop" >
+        <button type="button" id="1" onclick="clickans()"style="width:450px;">boy</button>
+        <button type="button" id="2" onclick="clickans()"style="width:450px;">sud</button>
+        <br>
+        <button type="button" id="3" onclick="clickans()"style="width:450px;">lor</button>
+        <button type="button" id="4" onclick="clickans()"style="width:450px;">gg</button>
+        </br>
+      </br>
+      </div>
+
+    </div>
+    <div  hidden class="ShowScore">
+      <h1>Your point</h1>
+      <h1 id="idScore">00</h1>
+        <p>Your Time</p>
+          <h1 id="idTime">00</h1>
+
+    </div>
+
+
+  </body>
+</html>
